@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Prata|Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Pacifico|Yellowtail&display=swap');
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Yellowtail', cursive; */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+}
+
+h2 {
+  font-family: 'Prata', serif;
+  font-size: 15px;
+}
+
+h3 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.headContain h1, h2{
+  color: white;
+  padding: 10px;
+}
+
+p, a {
+  font-family: 'Poppins', sans-serif;
+}
+
+.headContain {
+  background-image: url("darkerpinkroses.jpg");
+  background-position: bottom;
+}
+
+.navbar {
+  background-size: 200px;
+  background-repeat: repeat;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: black;
+}
+
+.headerbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.headerbox a{
+  border: 2px solid white;
+  color: white;
+  padding: 10px;
+  font-family: 'Prata', serif;
+}
+
+.container {
+  position: relative;
+}
+
+.container h3, p{
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 30px;
+}
+
+.container a{
+  color: gray;
+  float: inline-end;
+}
+
+.container a:hover{
+  color: palevioletred;
+}
+.codeNation{
+  background-color: rgb(243, 217, 243);
+}
+
+.pastProjects{
+  background-image: url("blossom.jpg");
+  background-position: center;
+}
+
+.pastProjects h3{
+  background-color: rgba(255,255,255,0.5);
+}
+
+.pastProjects p{
+  background-color: rgba(255,255,255,0.5);
+}
+
+
+.contact{
+  background-color: gray;
+  color: white;
+  text-align: center;
+  
+}
+
+.contact a{
+  padding: 20px;
+  color: white;
+  font-size: 40px;
+}
+
+.contact a:hover{
+  padding: 20px;
+  color: rgb(243, 217, 243);
+  font-size: 40px;;
+}
+
